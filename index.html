@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2, user-scalable=0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>鞠婧祎唱吧音乐</title>
+	<meta name="keywords" content="鞠婧祎，jujingyi，唱吧，MP3，音乐，鞠婧祎后援会，后援会" />
+    <meta name="description" content="鞠婧祎唱吧音乐" />
+    <link rel="stylesheet" type="text/css" href="//kikuchanj.gitee.io/mp3/css/tplayer.css" />
+    <link rel="stylesheet" type="text/css" href="//kikuchanj.gitee.io/mp3/css/font-awesome.min.css" />
+    <script src="//kikuchanj.gitee.io/mp3/js/jquery.js"></script>
+    <script src="//kikuchanj.gitee.io/mp3/js/jquery-ui.js"></script>
+    <script src="//kikuchanj.gitee.io/mp3/js/tPlayer.js"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="t_wrapper">
+        <div id="t_cover">
+        	<img src="./images/logo.jpg">
+        </div>
+    	<div id="t_top">
+    		<div id="t_title_info">
+    			<span class="artist"></span>
+    			<span class="title"></span>
+    		</div>
+    	</div>
+    	<div id="t_middle">
+    		<div id="play"></div>
+    		<div id="pause" class="hidden">
+    		</div>
+    		<div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="t_progress">
+                <div id="trackInfo">
+                    <div id="error">
+    				</div>
+                    <div id="current">0:00</div>
+                    <div id="duration">0:00</div>
+    			</div>
+    			<div style="width: 0%;" class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min"></div>
+            	<span style="left: 0%;" class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+            </div>
+    		<span id="prev"></span>
+            <span id="next"></span>
+    	</div>
+    	<div id="t_bottom">
+            <div id="range">
+                <div id="val"></div>
+                <div id="vol"></div>
+                <div id="rangeVal"></div>
+            </div>
+            <div id="t_pls_show" class="noselectpls"></div>
+    	</div>
+    </div>
+    <div id="playlist">
+        <ul>
+			<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="三寸天堂">
+  <a href="#">三寸天堂</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/三寸天堂.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="下一个天亮.mp3">
+  <a href="#">下一个天亮.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/下一个天亮.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="又见炊烟.mp3">
+  <a href="#">又见炊烟.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/又见炊烟.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="可惜不是你.mp3">
+  <a href="#">可惜不是你.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/可惜不是你.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="叶子.mp3">
+  <a href="#">叶子.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/叶子.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="囚鸟.mp3">
+  <a href="#">囚鸟.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/囚鸟.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="囚鸟【第二版】.mp3">
+  <a href="#">囚鸟【第二版】.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/囚鸟【第二版】.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="夕颜葬.mp3">
+  <a href="#">夕颜葬.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/夕颜葬.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="外面的世界.mp3">
+  <a href="#">外面的世界.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/外面的世界.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="夜上海 【第三版】.mp3">
+  <a href="#">夜上海 【第三版】.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/夜上海 【第三版】.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="夜上海.mp3">
+  <a href="#">夜上海.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/夜上海.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="夜夜夜夜.mp3">
+  <a href="#">夜夜夜夜.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/夜夜夜夜.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="下一个天亮【第二版】.mp3">
+  <a href="#">下一个天亮【第二版】.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/下一个天亮【第二版】.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="夜太黑.mp3">
+  <a href="#">夜太黑.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/夜太黑.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="夜来香.mp3">
+  <a href="#">夜来香.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/夜来香.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="好想好好爱你.mp3">
+  <a href="#">好想好好爱你.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/好想好好爱你.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="如果没有你.mp3">
+  <a href="#">如果没有你.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/如果没有你.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="小城故事.mp3">
+  <a href="#">小城故事.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/小城故事.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="小城故事【第二版】.mp3">
+  <a href="#">小城故事【第二版】.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/小城故事【第二版】.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="往事随风.mp3">
+  <a href="#">往事随风.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/往事随风.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="怎样.mp3">
+  <a href="#">怎样.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/怎样.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="我只在乎你.mp3">
+  <a href="#">我只在乎你.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/我只在乎你.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="我在春天等你.mp3">
+  <a href="#">我在春天等你.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/我在春天等你.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="亲爱的小孩.mp3">
+  <a href="#">亲爱的小孩.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/亲爱的小孩.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="我要快乐.mp3">
+  <a href="#">我要快乐.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/我要快乐.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="指望.mp3">
+  <a href="#">指望.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/指望.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="时间煮雨.mp3">
+  <a href="#">时间煮雨.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/时间煮雨.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="月亮代表我的心.mp3">
+  <a href="#">月亮代表我的心.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/月亮代表我的心.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="泪的告白（ありがとう）.mp3">
+  <a href="#">泪的告白（ありがとう）.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/泪的告白（ありがとう）.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="清唱1分钟.mp3">
+  <a href="#">清唱1分钟.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/清唱1分钟.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="清唱戏腔.mp3">
+  <a href="#">清唱戏腔.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/清唱戏腔.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="湖畔.mp3">
+  <a href="#">湖畔.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/湖畔.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="牵手.mp3">
+  <a href="#">牵手.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/牵手.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="甜蜜蜜.mp3">
+  <a href="#">甜蜜蜜.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/甜蜜蜜.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="伤不起.mp3">
+  <a href="#">伤不起.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/伤不起.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="画心.mp3">
+  <a href="#">画心.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/画心.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="离别的车站.mp3">
+  <a href="#">离别的车站.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/离别的车站.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="穿越时空的思念.mp3">
+  <a href="#">穿越时空的思念.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/穿越时空的思念.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="笑忘书.mp3">
+  <a href="#">笑忘书.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/笑忘书.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="粉红色的回忆.mp3">
+  <a href="#">粉红色的回忆.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/粉红色的回忆.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="红豆.mp3">
+  <a href="#">红豆.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/红豆.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="红雨.mp3">
+  <a href="#">红雨.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/红雨.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="约定.mp3">
+  <a href="#">约定.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/约定.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="自从有了你.mp3">
+  <a href="#">自从有了你.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/自从有了你.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="致青春.mp3">
+  <a href="#">致青春.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/致青春.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="到不了.mp3">
+  <a href="#">到不了.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/到不了.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="虫儿飞.mp3">
+  <a href="#">虫儿飞.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/虫儿飞.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="遗失的美好.mp3">
+  <a href="#">遗失的美好.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/遗失的美好.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="雨蝶.mp3">
+  <a href="#">雨蝶.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/雨蝶.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="青城山下白素贞.mp3">
+  <a href="#">青城山下白素贞.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/青城山下白素贞.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="青青河边草.mp3">
+  <a href="#">青青河边草.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/青青河边草.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="风中有朵雨做的云.mp3">
+  <a href="#">风中有朵雨做的云.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/风中有朵雨做的云.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="飘摇.mp3">
+  <a href="#">飘摇.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/飘摇.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="勇气.mp3">
+  <a href="#">勇气.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/勇气.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="匆匆那年.mp3">
+  <a href="#">匆匆那年.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/匆匆那年.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="北方有佳人.mp3">
+  <a href="#">北方有佳人.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/北方有佳人.mp3" type="audio/mp3"></audio>
+</li>
+<li t_cover="/images/logo.jpg" t_artist="鞠婧祎唱吧音乐" t_name="千年等一回.mp3">
+  <a href="#">千年等一回.mp3</a>
+  <audio preload="none">
+    <source src="//kikuchanj.gitee.io/mp3/changba/千年等一回.mp3" type="audio/mp3"></audio>
+</li>
+        </ul>
+    </div>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p><a href="//www.kikuchanj.com/" target="_blank">kikuchanj.com</a>&nbsp;邮箱：admin@kikuchanj.com</p>
+<p>仅存档</p>
+</div>
+<div style="display:none">
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0a55913c2b94d110644945fca499f5d4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-72900648-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</div>
+</body>
+</html>
